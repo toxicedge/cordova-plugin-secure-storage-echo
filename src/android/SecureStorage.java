@@ -5,10 +5,11 @@ import android.app.KeyguardManager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
+import android.os.CancellationSignal;
 import android.provider.Settings;
 import android.util.Base64;
 import android.util.Log;
-import android.hardware.biometrics;
+import android.hardware.biometrics.BiometricPrompt;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaArgs;
@@ -20,6 +21,7 @@ import org.json.JSONObject;
 import java.lang.reflect.Method;
 import java.util.Hashtable;
 import java.util.Map;
+import java.util.concurrent.Executor;
 
 public class SecureStorage extends CordovaPlugin {
     private static final String TAG = "SecureStorage";
