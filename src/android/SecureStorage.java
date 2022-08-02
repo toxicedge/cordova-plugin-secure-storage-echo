@@ -5,10 +5,11 @@ import android.app.KeyguardManager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
+import android.os.CancellationSignal;
 import android.provider.Settings;
 import android.util.Base64;
 import android.util.Log;
-import android.hardware.biometrics;
+import android.hardware.biometrics.BiometricPrompt;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaArgs;
