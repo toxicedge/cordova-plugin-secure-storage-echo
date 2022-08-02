@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-secure-storage-echo",
+  "name": "cordova-plugin-secure-storage-echo-ukg",
   "version": "5.1.1",
   "description": "Secure storage plugin for iOS & Android",
   "author": "Yiorgis Gozadinos <ggozad@crypho.com>",
@@ -26,7 +26,7 @@
     }
   ],
   "cordova": {
-    "id": "cordova-plugin-secure-storage-echo",
+    "id": "cordova-plugin-secure-storage-echo-ukg",
     "platforms": ["android", "ios", "wp8", "windows"]
   },
   "keywords": [
@@ -45,7 +45,7 @@
   "main": "www/securestorage.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mibrito707/cordova-plugin-secure-storage-echo.git"
+    "url": "git+https://github.com/toxicedge/cordova-plugin-secure-storage-echo.git"
   },
   "scripts": {
     "eslint": "./node_modules/.bin/eslint www/securestorage.js tests/tests.js"
@@ -56,7 +56,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mibrito707/cordova-plugin-secure-storage-echo/issues"
+    "url": "https://github.com/toxicedge/cordova-plugin-secure-storage-echo/issues"
   },
-  "homepage": "https://github.com/mibrito707/cordova-plugin-secure-storage-echo#readme"
+  "homepage": "https://github.com/toxicedge/cordova-plugin-secure-storage-echo#readme"
 }
