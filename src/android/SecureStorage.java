@@ -20,6 +20,7 @@ import org.json.JSONObject;
 import java.lang.reflect.Method;
 import java.util.Hashtable;
 import java.util.Map;
+import java.util.concurrent.Executor;
 
 public class SecureStorage extends CordovaPlugin {
     private static final String TAG = "SecureStorage";
